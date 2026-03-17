@@ -29,9 +29,9 @@ import MonitoramentoPonto from "@/pages/crm/MonitoramentoPonto";
 import RegistrosPonto from "@/pages/crm/RegistrosPonto";
 
 import {
-  Building, DollarSign, BarChart3, Settings, Users, UserCircle,
+  DollarSign, BarChart3, Users, UserCircle,
   FileText, Receipt, FileCheck, Sparkles, Hammer, ShieldCheck, KeyRound,
-  TreePine, Droplets, Sofa, HeartPulse, Briefcase, Eye, MapPin
+  TreePine, Droplets, Sofa, HeartPulse
 } from "lucide-react";
 
 const queryClient = new QueryClient();

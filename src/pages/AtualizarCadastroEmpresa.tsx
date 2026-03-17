@@ -87,7 +87,7 @@ export default function AtualizarCadastroEmpresa() {
         contrato: undefined,
       });
     }
-  }, [empresaQuery.data]);
+  }, [empresaQuery.data, form]);
 
   const services = useMemo(() => servicesQuery.data ?? [], [servicesQuery.data]);
 

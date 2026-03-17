@@ -86,7 +86,7 @@ router.put("/:id", upload.single("contrato"), async (req, res) => {
       const existing = getContractFsPath(empresa.contratoPath);
       try {
         await fs.unlink(existing);
-      } catch (error) {
+      } catch {
         // ignore failures
       }
     }
@@ -123,7 +123,7 @@ router.delete("/:id", async (req, res) => {
     const existing = getContractFsPath(empresa.contratoPath);
     try {
       await fs.unlink(existing);
-    } catch (error) {
+    } catch {
       // ignore
     }
   }
